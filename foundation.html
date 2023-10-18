@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Banking System</h1>
+    </header>
+    <main>
+        <section id="customer-list">
+            <h2>Customer List</h2>
+            <ul id="customer-list-items">
+                
+            </ul>
+        </section>
+        <section id="customer-details">
+            <h2>Customer Details</h2>
+            <div id="customer-select">
+            <label for="select-customer">Select a Customer:</label>
+            <select id="select-customer"></select>
+            </div>
+            <div id="customer-info">
+                
+            </div>
+        </section>
+        <section id="transaction">
+            <h2>Transaction</h2>
+            <form id="transfer-form">
+                <label for="from-customer">From Customer:</label>
+                <select id="from-customer"></select>
+                <label for="to-customer">To Customer:</label>
+                <select id="to-customer"></select>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" step="0.01">
+                <button type="submit">Transfer</button>
+            </form>
+        </section>
+    </main>
+    
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
